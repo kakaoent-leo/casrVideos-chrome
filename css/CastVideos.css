@@ -592,7 +592,6 @@ div.imageSub div.label {
 }
 
 #custom_pause {
-  display: none;
   margin: 10px 0px 10px 10px;
   float: left;
   width: 65px;
@@ -601,10 +600,9 @@ div.imageSub div.label {
 }
 
 #custom_play {
-  display: none;
   margin: 10px 0px 10px 10px;
   float: left;
   width: 65px;
   height: 40px;
-  background-image: url("../imagefiles/pause.png");
+  background-image: url("../imagefiles/play.png");
 }
