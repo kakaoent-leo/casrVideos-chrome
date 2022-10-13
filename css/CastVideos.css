@@ -3,8 +3,8 @@ html {
 }
 
 body {
-  background-color: #F2F2F2;
-  font-family: 'Roboto', "OpenSans", "Verdana", Georgia, Serif;
+  background-color: #f2f2f2;
+  font-family: "Roboto", "OpenSans", "Verdana", Georgia, Serif;
 }
 
 #msg {
@@ -20,7 +20,7 @@ body {
 #top_header_bar {
   width: 100%;
   height: 10px;
-  background-image: url('../imagefiles/header_bg-top.png');
+  background-image: url("../imagefiles/header_bg-top.png");
   background-repeat: repeat-x;
   margin: 0px;
 }
@@ -29,7 +29,7 @@ body {
   float: left;
   width: 100%;
   height: 71px;
-  background-image: url('../imagefiles/header_bg.png');
+  background-image: url("../imagefiles/header_bg.png");
   background-repeat: repeat-x;
   margin: 0px;
   z-index: 1000;
@@ -39,7 +39,7 @@ body {
   float: left;
   width: 100%;
   height: 81px;
-  background-image: url('../imagefiles/footer_bg.png');
+  background-image: url("../imagefiles/footer_bg.png");
   background-repeat: repeat-x;
   margin: 0px;
 }
@@ -76,7 +76,7 @@ body {
   float: left;
   width: 201px;
   height: 71px;
-  background-image: url('../imagefiles/logo.png');
+  background-image: url("../imagefiles/logo.png");
   margin: 10px 25px 0px 25px;
 }
 
@@ -119,10 +119,12 @@ body {
   margin-bottom: 0px;
   width: 960px;
   height: 540px;
-  background: linear-gradient(to top,
+  background: linear-gradient(
+    to top,
     rgba(0, 0, 0, 0.9),
     rgba(0, 0, 0, 0) 72%,
-    rgba(0, 0, 0, 0) 100%);
+    rgba(0, 0, 0, 0) 100%
+  );
   z-index: 0;
   display: none;
 }
@@ -147,7 +149,7 @@ body {
   margin: 5px 0px 0px 40px;
   padding: 10px;
   opacity: 0.9;
-  background-color: #DDE0E5;
+  background-color: #dde0e5;
   color: #000;
 }
 
@@ -157,7 +159,7 @@ body {
   padding: 0px;
   font-size: 30px;
   font-weight: bold;
-  font-family: 'Roboto', "Open Sans", "Verdana", Georgia, Serif;
+  font-family: "Roboto", "Open Sans", "Verdana", Georgia, Serif;
 }
 
 #media_subtitle {
@@ -165,7 +167,7 @@ body {
   width: 80%;
   margin: 10px;
   font-size: 12px;
-  font-family: 'Roboto', "Open Sans", "Verdana", Georgia, Serif;
+  font-family: "Roboto", "Open Sans", "Verdana", Georgia, Serif;
 }
 
 #feature_toggle_container {
@@ -173,7 +175,7 @@ body {
   float: left;
   margin: 10px;
   font-size: 12px;
-  font-family: 'Roboto', "Open Sans", "Verdana", Georgia, Serif;
+  font-family: "Roboto", "Open Sans", "Verdana", Georgia, Serif;
 }
 
 radio {
@@ -181,7 +183,7 @@ radio {
   margin: 13px 0px 0px 30px;
   padding: 0px;
   font-size: 18px;
-  font-family: 'Roboto', "Open Sans", "Verdana", Georgia, Serif;
+  font-family: "Roboto", "Open Sans", "Verdana", Georgia, Serif;
 }
 
 #media_control {
@@ -193,9 +195,9 @@ radio {
   padding: 0px;
   opacity: 0.7;
   background-color: #000;
-  font-family: 'Roboto', "Open Sans", "Verdana", Georgia, Serif;
+  font-family: "Roboto", "Open Sans", "Verdana", Georgia, Serif;
   transition: opacity 1s;
-  -webkit-transition:opacity 1s; /* Safari */
+  -webkit-transition: opacity 1s; /* Safari */
 }
 
 #media_control:hover {
@@ -207,15 +209,15 @@ radio {
   float: left;
   width: 65px;
   height: 40px;
-  background-image: url('../imagefiles/play.png');
+  background-image: url("../imagefiles/play.png");
 }
 
 #play:hover {
-  background-image: url('../imagefiles/play-hover.png');
+  background-image: url("../imagefiles/play-hover.png");
 }
 
 #play:press {
-  background-image: url('../imagefiles/play-press.png');
+  background-image: url("../imagefiles/play-press.png");
 }
 
 #pause {
@@ -224,17 +226,17 @@ radio {
   float: left;
   width: 65px;
   height: 40px;
-  background-image: url('../imagefiles/pause.png');
+  background-image: url("../imagefiles/pause.png");
 }
 
 #pause:hover {
-  background-image: url('../imagefiles/pause-hover.png');
+  background-image: url("../imagefiles/pause-hover.png");
 }
 
 .button {
   margin: 5px;
   font-size: 100%;
-  font-family: 'Roboto', "Open Sans", "Verdana", Georgia, Serif;
+  font-family: "Roboto", "Open Sans", "Verdana", Georgia, Serif;
 }
 
 .volume {
@@ -249,7 +251,7 @@ radio {
 
 .muteButton {
   font-size: 110%;
-  font-family: 'Roboto', "Open Sans", "Verdana", Georgia, Serif;
+  font-family: "Roboto", "Open Sans", "Verdana", Georgia, Serif;
 }
 
 .imageIcon {
@@ -295,7 +297,7 @@ radio {
   z-index: 3;
   background-repeat: repeat-x;
   position: absolute;
-  background-color: rgba(208, 2, 27, 1.0);
+  background-color: rgba(208, 2, 27, 1);
   padding-left: -2px;
 }
 
@@ -326,7 +328,7 @@ radio {
   z-index: 5;
   margin-top: -2px;
   position: absolute;
-  background-color: rgba(208, 2, 27, 1.0);
+  background-color: rgba(208, 2, 27, 1);
 }
 
 #progress_indicator:hover {
@@ -356,7 +358,7 @@ radio {
   width: 32px;
   height: 32px;
   display: none;
-  background-image: url('../imagefiles/audio_off.png');
+  background-image: url("../imagefiles/audio_off.png");
 }
 
 #audio_on {
@@ -365,7 +367,7 @@ radio {
   height: 32px;
   margin: 10px 15px 10px 15px;
   display: block;
-  background-image: url('../imagefiles/audio_on.png');
+  background-image: url("../imagefiles/audio_on.png");
 }
 
 #audio_bg {
@@ -375,43 +377,43 @@ radio {
   height: 124px;
   margin: -115px 0px -10px 8px;
   display: block;
-  background-image: url('../imagefiles/audio_bg.png');
+  background-image: url("../imagefiles/audio_bg.png");
   position: relative;
   z-index: 10;
 }
 
 #audio_bg_track {
   float: left;
-  opacity: 0.0;
+  opacity: 0;
   width: 16px;
   height: 100px;
   margin: -100px 0px -30px 20px;
   display: block;
-  background-image: url('../imagefiles/audio_bg_track.png');
+  background-image: url("../imagefiles/audio_bg_track.png");
   position: relative;
   z-index: 1000;
 }
 
 #audio_indicator {
   float: left;
-  opacity: 0.0;
+  opacity: 0;
   width: 16px;
   height: 5px;
   margin: -50px 0px -30px 20px;
   display: none;
-  background-image: url('../imagefiles/audio_indicator.png');
+  background-image: url("../imagefiles/audio_indicator.png");
   position: relative;
   z-index: 1000;
 }
 
 #audio_bg_level {
   float: left;
-  opacity: 0.0;
+  opacity: 0;
   width: 16px;
   height: 50px;
   margin: -50px 0px -30px 20px;
   display: block;
-  background-image: url('../imagefiles/audio_bg_level.png');
+  background-image: url("../imagefiles/audio_bg_level.png");
   position: relative;
   z-index: 1000;
 }
@@ -422,7 +424,7 @@ radio {
   height: 32px;
   margin: 10px 20px 10px 0px;
   display: block;
-  background-image: url('../imagefiles/fullscreen_expand.png');
+  background-image: url("../imagefiles/fullscreen_expand.png");
   cursor: pointer;
 }
 
@@ -432,7 +434,7 @@ radio {
   height: 32px;
   margin: 10px 20px 10px 0px;
   display: none;
-  background-image: url('../imagefiles/fullscreen_collapse.png');
+  background-image: url("../imagefiles/fullscreen_collapse.png");
   cursor: pointer;
 }
 
@@ -469,7 +471,7 @@ radio {
 }
 
 #skip {
-  background-image: url('../imagefiles/skip.png');
+  background-image: url("../imagefiles/skip.png");
   color: white;
   cursor: pointer;
   display: none;
@@ -478,7 +480,7 @@ radio {
   top: 575px;
   width: 55px;
   height: 19px;
-  font-family: 'Roboto', "Open Sans", "Verdana", Georgia, Serif;
+  font-family: "Roboto", "Open Sans", "Verdana", Georgia, Serif;
   margin: -60px 0px 0px 40px;
   padding: 10px;
   position: absolute;
@@ -486,11 +488,11 @@ radio {
 }
 
 #skip:hover {
-  background-image: url('../imagefiles/skip_hover.png');
+  background-image: url("../imagefiles/skip_hover.png");
 }
 
 #skip:press {
-  background-image: url('../imagefiles/skip_press.png');
+  background-image: url("../imagefiles/skip_press.png");
 }
 
 div.imageSub {
@@ -558,4 +560,33 @@ div.imageSub div.label {
 
 .vertical {
   -webkit-transform: rotate(90deg);
+}
+
+#cutom_div {
+  display: block;
+  clear: both;
+  float: left;
+  width: 940px;
+  height: 116px;
+  margin: 5px 0px 0px 40px;
+  padding: 10px;
+  opacity: 0.9;
+  background-color: #dde0e5;
+  color: #000;
+}
+
+#custom_castbutton {
+  float: right;
+  margin: 10px 6px 14px 0px;
+  width: 40px;
+  height: 32px;
+  opacity: 0.7;
+  background-color: #000;
+  border: none;
+  outline: none;
+}
+
+#custom_castbutton:hover {
+  --disconnected-color: white;
+  --connected-color: white;
 }
