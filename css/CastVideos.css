@@ -562,7 +562,7 @@ div.imageSub div.label {
   -webkit-transform: rotate(90deg);
 }
 
-#cutom_div {
+#custom_div {
   display: block;
   clear: both;
   float: left;
@@ -589,4 +589,22 @@ div.imageSub div.label {
 #custom_castbutton:hover {
   --disconnected-color: white;
   --connected-color: white;
+}
+
+#custom_pause {
+  display: none;
+  margin: 10px 0px 10px 10px;
+  float: left;
+  width: 65px;
+  height: 40px;
+  background-image: url("../imagefiles/pause.png");
+}
+
+#custom_play {
+  display: none;
+  margin: 10px 0px 10px 10px;
+  float: left;
+  width: 65px;
+  height: 40px;
+  background-image: url("../imagefiles/pause.png");
 }
